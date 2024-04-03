@@ -16,7 +16,7 @@ class _homepageState extends State<homepage> {
     return Scaffold(
       bottomNavigationBar:
           BottomNavigationBar(items: const <BottomNavigationBarItem>[
-        BottomNavigationBarItem(icon: Icon(Icons.home,color: Color.fromRGBO(246, 239, 238, 1),),label: "Home",backgroundColor: Colors.lightBlueAccent),
+        BottomNavigationBarItem(icon: Icon(Icons.home,color: Color.fromRGBO(246, 239, 238, 1),),label: "Home",backgroundColor: Colors.purple),
         BottomNavigationBarItem(icon: Icon(Icons.favorite_outlined,color: Color.fromRGBO(246, 239, 238, 1),),label: "Favourits"),
         BottomNavigationBarItem(icon: Icon(Icons.shopping_cart_rounded,color: Color.fromRGBO(246, 239, 238, 1),),label: "Cart",),
         BottomNavigationBarItem(icon: Icon(Icons.person,color: Color.fromRGBO(246, 239, 238, 1),),label: "Account" )
